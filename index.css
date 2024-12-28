@@ -1,0 +1,132 @@
+* {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+.header {
+ height: 100vh;
+ background-image: linear-gradient(to top,
+   rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.5)),
+  url('./images/sperantacahul.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ position: relative;
+}
+
+
+
+.logo {
+ line-height: 2rem;
+ margin-top: 20px;
+ margin-left: 25px;
+ padding: 15px;
+}
+
+.logo h1:first-child {
+ font-family: Georgia,
+  serif;
+ font-size: 35px;
+ color: rgb(186, 181, 103);
+ text-align: left;
+}
+
+.logo h1:first-child:hover {
+color: white;
+}
+
+.logo h2:last-child {
+ font-family: Brush Script MT,
+  Brush Script Std,
+  cursive;
+ color: whitesmoke;
+ font-size: 40px;
+ margin-left: 40px;
+}
+
+.header .navbar {
+ display: flex;
+ background-image: linear-gradient(to right,
+   rgb(224, 123, 46),
+   rgb(230, 132, 58));
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+
+
+#menu {
+ margin-top: 35px;
+ margin-left: 225px;
+ display: flex;
+ list-style-type: none;
+
+ gap: 250px;
+ font-size: 25px;
+
+
+}
+
+a {
+ text-decoration: none;
+ color: rgb(186, 181, 103);
+}
+
+a:hover {
+ color: aliceblue;
+}
+
+.logo_img {
+ margin-left: 150px;
+ padding-right: 150px;
+}
+
+.hero {
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ text-shadow: 10px 5px 5px rgb(186, 181, 103);
+ color: aliceblue;
+ align-content: center;
+}
+
+.hero .content {
+ max-width: 60%;
+ margin: auto;
+}
+
+.hero h1 {
+ padding: 25px;
+ font-size: 50px;
+ font-family: Palatino,
+  URW Palladio L,
+  serif;
+}
+
+.hero p {
+ font-family: Times,
+  Times New Roman,
+  serif;
+ font-size: 20px;
+}
+
+/*About section*/
+#about .about-container .photo {
+ margin-top: 20px;
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+
+}
+
+#about .about-container .content {
+ margin-inline: 200px;
+ font-family: fantasy;
+}
