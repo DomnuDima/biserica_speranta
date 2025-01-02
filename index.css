@@ -1,132 +1,240 @@
 * {
- font-family: Georgia, 'Times New Roman', Times, serif;
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .header {
- height: 100vh;
- background-image: linear-gradient(to top,
-   rgba(0, 0, 0, 0.2),
-   rgba(0, 0, 0, 0.5)),
-  url('./images/sperantacahul.jpg');
- background-repeat: no-repeat;
- background-size: 100%;
- position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)),
+    url('./images/sperantacahul.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
 }
 
 
 
 .logo {
- line-height: 2rem;
- margin-top: 20px;
- margin-left: 25px;
- padding: 15px;
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-left: 25px;
+  padding: 15px;
 }
 
 .logo h1:first-child {
- font-family: Georgia,
-  serif;
- font-size: 35px;
- color: rgb(186, 181, 103);
- text-align: left;
+  font-family: Georgia,
+    serif;
+  font-size: 35px;
+  color: rgb(186, 181, 103);
+  text-align: left;
 }
 
 .logo h1:first-child:hover {
-color: white;
+  color: white;
 }
 
 .logo h2:last-child {
- font-family: Brush Script MT,
-  Brush Script Std,
-  cursive;
- color: whitesmoke;
- font-size: 40px;
- margin-left: 40px;
+  font-family: Brush Script MT,
+    Brush Script Std,
+    cursive;
+  color: whitesmoke;
+  font-size: 40px;
+  margin-left: 40px;
 }
 
 .header .navbar {
- display: flex;
- background-image: linear-gradient(to right,
-   rgb(224, 123, 46),
-   rgb(230, 132, 58));
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
+  display: flex;
+  background-image: linear-gradient(to right,
+      rgb(224, 123, 46),
+      rgb(230, 132, 58));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 
 #menu {
- margin-top: 35px;
- margin-left: 225px;
- display: flex;
- list-style-type: none;
+  margin-top: 35px;
+  margin-left: 225px;
+  display: flex;
+  list-style-type: none;
 
- gap: 250px;
- font-size: 25px;
+  gap: 250px;
+  font-size: 25px;
 
 
 }
 
 a {
- text-decoration: none;
- color: rgb(186, 181, 103);
+  text-decoration: none;
+  color: rgb(186, 181, 103);
 }
 
 a:hover {
- color: aliceblue;
+  color: aliceblue;
 }
 
 .logo_img {
- margin-left: 150px;
- padding-right: 150px;
+  margin-left: 150px;
+  padding-right: 150px;
 }
 
 .hero {
- width: 100%;
- height: 100%;
- text-align: center;
- text-shadow: 10px 5px 5px rgb(186, 181, 103);
- color: aliceblue;
- align-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 10px 5px 5px rgb(186, 181, 103);
+  color: aliceblue;
+  align-content: center;
 }
 
 .hero .content {
- max-width: 60%;
- margin: auto;
+  max-width: 60%;
+  margin: auto;
 }
 
 .hero h1 {
- padding: 25px;
- font-size: 50px;
- font-family: Palatino,
-  URW Palladio L,
-  serif;
+  padding: 25px;
+  font-size: 50px;
+  font-family: Palatino,
+    URW Palladio L,
+    serif;
 }
 
 .hero p {
- font-family: Times,
-  Times New Roman,
-  serif;
- font-size: 20px;
+  font-family: Times,
+    Times New Roman,
+    serif;
+  font-size: 20px;
 }
 
 /*About section*/
+#about {
+  background-image: linear-gradient(to bottom, white, rgb(177, 177, 157));
+}
+
 #about .about-container .photo {
- margin-top: 20px;
- padding: 20px;
- display: flex;
- justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 
 }
 
 #about .about-container .content {
- margin-inline: 200px;
- font-family: fantasy;
+  margin-inline: 200px;
+  font-family: fantasy;
 }
+
+#lucrarile {
+  color: white;
+  background-image: linear-gradient(to bottom,
+   rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.9),
+     rgb(0, 0, 0, 0.4)),
+      url(./images/459753163_822177043463205_5630111005045460481_n.jpg);
+}
+
+#lucrarile .lucrarile-title {
+  padding-block: 10px;
+  padding-bottom: 50px;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+#lucrarile .luni .luni-content {
+  padding-block: 50px;
+  max-width: 60%;
+  margin-inline: 500px;
+  font-family: garamond;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-inline: 20px;
+  border-bottom: 2px solid white;
+}
+
+#lucrarile .luni h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#lucrarile .miercuri .miercuri-content {
+padding-block: 50px;
+  max-width: 60%;
+  margin-inline: 500px;
+  font-family: garamond;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-inline: 20px;
+  border-bottom: 2px solid white;
+}
+
+#lucrarile .miercuri h1 {
+  text-align: center;
+}
+
+#lucrarile .joi .joi-content {
+  padding-block: 50px;
+    max-width: 60%;
+    margin-inline: 500px;
+    font-family: garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-inline: 20px;
+    border-bottom: 2px solid white;
+}
+
+#lucrarile .joi h1 {
+ text-align: center;
+}
+
+#lucrarile .sambata .sambata-content {
+  padding-block: 50px;
+    max-width: 60%;
+    margin-inline: 500px;
+    font-family: garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-inline: 20px;
+    border-bottom: 2px solid white;
+}
+
+#lucrarile .sambata h1 {
+  text-align: center;
+}
+
+#lucrarile .duminica .duminica-content {
+  padding-block: 50px;
+    max-width: 60%;
+    margin-inline: 500px;
+    font-family: garamond;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-inline: 20px;
+
+}
+
+#lucrarile .duminica h1 {
+  text-align: center;
+}
+
+#contacts {
+  background-image: linear-gradient(to left,  rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2)), url(./images/whitebackground.jpg);
+}
+
