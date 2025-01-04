@@ -111,10 +111,7 @@ a:hover {
 }
 
 .hero p {
-  font-family: Times,
-    Times New Roman,
-    serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*About section*/
@@ -138,103 +135,158 @@ a:hover {
 #lucrarile {
   color: white;
   background-image: linear-gradient(to bottom,
-   rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.9),
-     rgb(0, 0, 0, 0.4)),
-      url(./images/459753163_822177043463205_5630111005045460481_n.jpg);
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.871),
+      rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.4)),
+    url(./images/459753163_822177043463205_5630111005045460481_n.jpg);
 }
 
 #lucrarile .lucrarile-title {
   padding-block: 10px;
   padding-bottom: 50px;
   font-family: Brush Script MT;
-  font-size: 50px;
+  font-size: 90px;
   border-top: 1px solid black;
   text-align: center;
 }
 
 #lucrarile .luni .luni-content {
-  padding-block: 50px;
+  margin: auto;
   max-width: 60%;
-  margin-inline: 500px;
   font-family: garamond;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-inline: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid white;
 }
 
 #lucrarile .luni h1 {
+  font-size: 50px;
   text-align: center;
-  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 #lucrarile .miercuri .miercuri-content {
-padding-block: 50px;
+  margin: auto;
   max-width: 60%;
-  margin-inline: 500px;
   font-family: garamond;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-inline: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid white;
 }
 
 #lucrarile .miercuri h1 {
+  font-size: 50px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #lucrarile .joi .joi-content {
-  padding-block: 50px;
-    max-width: 60%;
-    margin-inline: 500px;
-    font-family: garamond;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-inline: 20px;
-    border-bottom: 2px solid white;
+  margin: auto;
+  max-width: 60%;
+  font-family: garamond;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
 }
 
 #lucrarile .joi h1 {
- text-align: center;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #lucrarile .sambata .sambata-content {
-  padding-block: 50px;
-    max-width: 60%;
-    margin-inline: 500px;
-    font-family: garamond;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-inline: 20px;
-    border-bottom: 2px solid white;
+  margin: auto;
+  max-width: 60%;
+  font-family: garamond;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
 }
 
 #lucrarile .sambata h1 {
+  font-size: 50px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #lucrarile .duminica .duminica-content {
-  padding-block: 50px;
-    max-width: 60%;
-    margin-inline: 500px;
-    font-family: garamond;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-inline: 20px;
-
+  margin: auto;
+  max-width: 60%;
+  font-family: garamond;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
 }
 
 #lucrarile .duminica h1 {
+  font-size: 50px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #contacts {
-  background-image: linear-gradient(to left,  rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2)), url(./images/whitebackground.jpg);
+  background-image: linear-gradient(to left, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.2)), url(./images/4k-nature-ztbad1qj8vdjqe0p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.map {
+  max-width: 90%;
+  margin: auto;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card .instagram {
+  color: white;
+  font-size: 40px;
+  
+}
+
+.card .instagram a {
+  color: brown;
+}
+
+.card .instagram a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.card .telegram {
+  color: white;
+  font-size: 40px;
+}
+
+.card .telegram a {
+  color: blue;
+}
+
+.card .telegram a:hover {
+  color: white;
+}
+
+.card .facebook {
+color: white;
+font-size: 40px;
+background-color:;
+}
+
+.card .facebook {
+color: white;
+font-size: 40px;
+background-color:#0643b4;
+border-radius: 20px;
+}
