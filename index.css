@@ -16,8 +16,14 @@ html {
       rgba(0, 0, 0, 0.5)),
     url('./images/sperantacahul.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   position: relative;
+}
+
+.header_paragraph {
+  font-family: serif;
+  font-weight: bold;
 }
 
 
@@ -33,19 +39,15 @@ html {
   font-family: Georgia,
     serif;
   font-size: 35px;
-  color: rgb(186, 181, 103);
+  color: rgb(116, 103, 233);
   text-align: left;
-}
-
-.logo h1:first-child:hover {
-  color: white;
 }
 
 .logo h2:last-child {
   font-family: Brush Script MT,
     Brush Script Std,
     cursive;
-  color: whitesmoke;
+  color: rgb(116, 103, 233);
   font-size: 40px;
   margin-left: 40px;
 }
@@ -53,8 +55,8 @@ html {
 .header .navbar {
   display: flex;
   background-image: linear-gradient(to right,
-      rgb(224, 123, 46),
-      rgb(230, 132, 58));
+      rgba(170, 214, 236, 0.523),
+      rgba(68, 145, 193, 0.335));
   position: fixed;
   top: 0;
   left: 0;
@@ -67,7 +69,7 @@ html {
   margin-left: 225px;
   display: flex;
   list-style-type: none;
-
+  color: rgb(255, 255, 255);
   gap: 250px;
   font-size: 25px;
 
@@ -76,11 +78,11 @@ html {
 
 a {
   text-decoration: none;
-  color: rgb(186, 181, 103);
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
-  color: aliceblue;
+  color: rgba(240, 248, 255, 0.307);
 }
 
 .logo_img {
@@ -92,7 +94,7 @@ a:hover {
   width: 100%;
   height: 100%;
   text-align: center;
-  text-shadow: 10px 5px 5px rgb(186, 181, 103);
+  text-shadow: 10px 5px 5px rgb(97, 97, 122);
   color: aliceblue;
   align-content: center;
 }
@@ -102,12 +104,13 @@ a:hover {
   margin: auto;
 }
 
-.hero h1 {
+.hero .header_heading {
   padding: 25px;
   font-size: 50px;
-  font-family: Palatino,
-    URW Palladio L,
+  font-family: 'Palatino',
+    'URW Palladio L',
     serif;
+  font-weight: bolder;
 }
 
 .hero p {
@@ -236,15 +239,22 @@ a:hover {
 }
 
 #contacts {
-  background-image: linear-gradient(to left, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.2)), url(./images/4k-nature-ztbad1qj8vdjqe0p.jpg);
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.386), rgba(0, 0, 0, 0.653)), url(./images/15952941713391838164.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .map {
   max-width: 90%;
+  height: 700px;
   margin: auto;
+  padding-block: 1rem;
 }
+
+.map iframe {
+  height: 100%;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -254,11 +264,11 @@ a:hover {
 .card .instagram {
   color: white;
   font-size: 40px;
-  
+
 }
 
 .card .instagram a {
-  color: brown;
+  color: rgb(165, 42, 144);
 }
 
 .card .instagram a:hover {
@@ -278,15 +288,125 @@ a:hover {
   color: white;
 }
 
-.card .facebook {
-color: white;
-font-size: 40px;
-background-color:;
+.card .facebook a:hover {
+  color: #ccc;
+  font-size: 40px;
+
 }
 
 .card .facebook {
-color: white;
-font-size: 40px;
-background-color:#0643b4;
-border-radius: 20px;
+  color: white;
+  font-size: 40px;
+  background-color: #0643b4;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color:#bbbbbb;
+  color: black;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #ccc;
+
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: none;
+  }
+
+  .hero .content {
+    max-width: 90%;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    /* 1rem = 16px */
+  }
+
+  #about .about-container .content {
+    margin-inline: 0;
+  }
+
+  #lucrarile .lucrarile-title {
+    font-size: 50px;
+    font-weight: bold
+  }
+
+  #lucrarile .luni .luni-content {
+    max-width: 90%;
+    font-size: 30px;
+    line-height: 2.2rem;
+  }
+
+  #lucrarile .luni h1 {
+    font-size: 40px;
+  }
+
+  #lucrarile .miercuri .miercuri-content {
+    max-width: 90%;
+    font-size: 30px;
+  }
+
+  #lucrarile .miercuri .miercuri-content p {
+    line-height: 2.2rem;
+  }
+
+  #lucrarile .miercuri h1 {
+    font-size: 40px;
+  }
+
+  #lucrarile .joi .joi-content {
+
+    max-width: 90%;
+
+    line-height: 2.2rem;
+  }
+
+  #lucrarile .joi h1 {
+    font-size: 40px;
+
+  }
+
+  #lucrarile .sambata .sambata-content {
+    max-width: 90%;
+    line-height: 2.2rem;
+  }
+
+  #lucrarile .sambata h1 {
+    font-size: 40px;
+  }
+
+  #lucrarile .duminica .duminica-content {
+
+    max-width: 90%;
+    line-height: 2.2rem;
+  }
+
+  #lucrarile .duminica h1 {
+    font-size: 40px;
+  }
+
+  .map {
+    max-width: 90%;
+    height: 400px;
+    margin: auto;
+    padding-block: 1rem;
+  }
+
+  .logo {
+    margin: auto;
+  }
 }
